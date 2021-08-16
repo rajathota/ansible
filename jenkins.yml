@@ -1,6 +1,6 @@
 ---
 - hosts: "{{ target | default('localhost') }}"
-  ecome: yes
+  become: yes
   roles:
     - jenkins
     - nodejs
