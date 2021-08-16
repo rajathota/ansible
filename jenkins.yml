@@ -1,0 +1,6 @@
+---
+- hosts: "{{ target | default('localhost') }}"
+  ecome: yes
+  roles:
+    - jenkins
+    - nodejs
